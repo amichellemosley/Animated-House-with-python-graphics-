@@ -71,9 +71,11 @@ def main():
     bushes()
     tree()
     windlines()
-    Text( Point( 300, 50 ), 'Goodnight' ).draw( win )
     win.getMouse()
+    Text( Point( 300, 50 ), 'Goodnight' ).draw( win )
     win.setBackground( 'black' )
+    win.getMouse()
+    win.setBackground('white')
     win.getMouse()
     win.close()
     
